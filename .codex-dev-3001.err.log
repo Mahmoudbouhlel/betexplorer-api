@@ -1,0 +1,229 @@
+C:\projects\betexplorer-api\src\services\team-fixtures.service.ts:4
+import { applyTeamFixturesPageView, parseTeamFixturesSource, sourceToFixtures } from "../parsers/team-fixtures.parser.js";
+                                    ^
+
+SyntaxError: The requested module '../parsers/team-fixtures.parser.js' does not provide an export named 'parseTeamFixturesSource'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:220:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:321:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.17.1
+C:\projects\betexplorer-api\src\services\team-fixtures.service.ts:4
+import { applyTeamFixturesPageView, parseTeamFixturesSource, sourceToFixtures } from "../parsers/team-fixtures.parser.js";
+                                    ^
+
+SyntaxError: The requested module '../parsers/team-fixtures.parser.js' does not provide an export named 'parseTeamFixturesSource'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:220:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:321:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.17.1
+C:\projects\betexplorer-api\src\services\team-fixtures.service.ts:4
+import { applyTeamFixturesPageView, parseTeamFixturesSource, sourceToFixtures } from "../parsers/team-fixtures.parser.js";
+                                    ^
+
+SyntaxError: The requested module '../parsers/team-fixtures.parser.js' does not provide an export named 'parseTeamFixturesSource'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:220:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:321:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.17.1
+
+C:\projects\betexplorer-api\node_modules\fastify\lib\route.js:431
+              throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+                    ^
+FastifyError [Error]: Failed building the validation schema for GET: /api/teams/:teamId/results, due to error strict mode: unknown keyword: "example"
+    at Boot.<anonymous> (C:\projects\betexplorer-api\node_modules\fastify\lib\route.js:431:21)
+    at Object.onceWrapper (node:events:632:28)
+    at Boot.emit (node:events:530:35)
+    at C:\projects\betexplorer-api\node_modules\avvio\boot.js:102:12
+    at C:\projects\betexplorer-api\node_modules\avvio\boot.js:451:7
+    at done (C:\projects\betexplorer-api\node_modules\avvio\lib\plugin.js:228:5)
+    at check (C:\projects\betexplorer-api\node_modules\avvio\lib\plugin.js:252:9)
+    at node:internal/process/task_queues:151:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:148:8) {
+  code: 'FST_ERR_SCH_VALIDATION_BUILD',
+  statusCode: 500
+}
+
+Node.js v22.17.1
+
+C:\projects\betexplorer-api\node_modules\fastify\lib\route.js:431
+              throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+                    ^
+FastifyError [Error]: Failed building the validation schema for GET: /api/teams/:teamId/results, due to error strict mode: unknown keyword: "example"
+    at Boot.<anonymous> (C:\projects\betexplorer-api\node_modules\fastify\lib\route.js:431:21)
+    at Object.onceWrapper (node:events:632:28)
+    at Boot.emit (node:events:530:35)
+    at C:\projects\betexplorer-api\node_modules\avvio\boot.js:102:12
+    at C:\projects\betexplorer-api\node_modules\avvio\boot.js:451:7
+    at done (C:\projects\betexplorer-api\node_modules\avvio\lib\plugin.js:228:5)
+    at check (C:\projects\betexplorer-api\node_modules\avvio\lib\plugin.js:252:9)
+    at node:internal/process/task_queues:151:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:148:8) {
+  code: 'FST_ERR_SCH_VALIDATION_BUILD',
+  statusCode: 500
+}
+
+Node.js v22.17.1
+
+C:\projects\betexplorer-api\node_modules\fastify\lib\route.js:431
+              throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+                    ^
+FastifyError [Error]: Failed building the validation schema for GET: /api/teams/:teamId/results, due to error strict mode: unknown keyword: "example"
+    at Boot.<anonymous> (C:\projects\betexplorer-api\node_modules\fastify\lib\route.js:431:21)
+    at Object.onceWrapper (node:events:632:28)
+    at Boot.emit (node:events:530:35)
+    at C:\projects\betexplorer-api\node_modules\avvio\boot.js:102:12
+    at C:\projects\betexplorer-api\node_modules\avvio\boot.js:451:7
+    at done (C:\projects\betexplorer-api\node_modules\avvio\lib\plugin.js:228:5)
+    at check (C:\projects\betexplorer-api\node_modules\avvio\lib\plugin.js:252:9)
+    at node:internal/process/task_queues:151:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:148:8) {
+  code: 'FST_ERR_SCH_VALIDATION_BUILD',
+  statusCode: 500
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1
+node:net:1940
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v22.17.1

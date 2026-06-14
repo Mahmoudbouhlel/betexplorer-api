@@ -1,0 +1,13 @@
+(
+echo node_modules/
+echo dist/
+echo .env
+echo .env.*
+echo !.env.example
+echo playwright-report/
+echo test-results/
+echo coverage/
+echo *.log
+echo .DS_Store
+echo .vscode/
+) > .gitignore

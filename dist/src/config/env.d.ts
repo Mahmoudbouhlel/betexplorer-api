@@ -1,0 +1,38 @@
+import "dotenv/config";
+export declare const env: {
+    PORT: number;
+    HOST: string;
+    NODE_ENV: "development" | "test" | "production";
+    BETEXPLORER_BASE_URL: string;
+    REQUEST_TIMEOUT_MS: number;
+    SCRAPE_TIMEOUT_MS: number;
+    HEADLESS: boolean;
+    ENABLE_PLAYWRIGHT_FALLBACK: boolean;
+    ENABLE_RESOURCE_BLOCKING: boolean;
+    BROWSER_MAX_PAGES: number;
+    SCRAPER_CONCURRENCY: number;
+    MATCH_LIST_TTL_SECONDS: number;
+    MATCH_DETAILS_TTL_SECONDS: number;
+    STANDINGS_TTL_SECONDS: number;
+    H2H_TTL_SECONDS: number;
+    TEAM_RESULTS_TTL_SECONDS: number;
+    TEAM_FIXTURES_TTL_SECONDS: number;
+    TEAM_PROFILE_TTL_SECONDS: number;
+    ENABLE_PERFORMANCE_LOGS: boolean;
+    MATCH_LIST_SCROLL_ENABLED: boolean;
+    MATCH_LIST_SCROLL_MAX_ITERATIONS: number;
+    MATCH_LIST_SCROLL_MAX_DURATION_MS: number;
+    MATCH_LIST_SCROLL_STEP_RATIO: number;
+    MATCH_LIST_SCROLL_MIN_STEP_PX: number;
+    MATCH_LIST_SCROLL_WAIT_TIMEOUT_MS: number;
+    MATCH_LIST_SCROLL_STABLE_CHECKS: number;
+    MATCH_LIST_SCROLL_STABLE_INTERVAL_MS: number;
+    MATCH_LIST_SCROLL_MAX_STAGNANT_ITERATIONS: number;
+    MATCH_LIST_SCROLL_BOTTOM_TOLERANCE_PX: number;
+    MATCH_LIST_SCROLL_TOP_PAUSE_MS: number;
+    MATCH_LIST_SCROLL_AFTER_LOAD_PAUSE_MS: number;
+    MATCH_LIST_SHOW_MORE_MAX_CLICKS: number;
+    MATCH_LIST_SCROLL_DEBUG: boolean;
+};
+export type AppEnv = typeof env;
+//# sourceMappingURL=env.d.ts.map
