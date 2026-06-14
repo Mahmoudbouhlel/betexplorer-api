@@ -5,12 +5,15 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "start": "tsx src/server.ts",
-    "build": "tsc",
+    "start": "node dist/server.js",
+    "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint ."
+  },
+  "engines": {
+    "node": "22.x"
   },
   "keywords": [],
   "author": "",
