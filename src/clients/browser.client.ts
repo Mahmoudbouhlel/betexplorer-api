@@ -8,7 +8,10 @@ const waiters: Array<() => void> = [];
 
 async function getBrowser(): Promise<Browser> {
   if (browser?.isConnected()) return browser;
-  browser = await chromium.launch({ headless: env.HEADLESS });
+  browser = await chromium.launch({
+    headless: env.HEADLESS,
+    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
+  });
   recordBrowserLaunch();
   browser.on("disconnected", () => {
     browser = null;
